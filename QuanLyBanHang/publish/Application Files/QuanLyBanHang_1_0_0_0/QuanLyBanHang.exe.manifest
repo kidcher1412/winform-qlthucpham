@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="QuanLyBanHang.exe" version="1.0.0.0" publicKeyToken="78b82781346c283e" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="QuanLyBanHang" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="QuanLyBanHang.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="QuanLyBanHang.exe" size="129960">
+      <assemblyIdentity name="QuanLyBanHang" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>BDPUWYAOURP4F9GgZxRJWbEjS2WypDdqb21o7qHizCQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="AppData\QuanLyBanHang.mdf" size="8388608" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>vNUVWtdEgn9MEGcEPKvSF4Nb+HU1aXCteIwJMFP8C+Y=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="AppData\QuanLyBanHang_log.ldf" size="8388608" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>07ZdzJkpd0ijkysusSGGtexevN8jcvsnOtwwjFtVKCM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="QuanLyBanHang.exe.config" size="542">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ZEoE3q1teSbZXlg6hVrwk0N2x2qkaXKzYQkBEMSNLKQ=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=THONG\THONG" issuerKeyHash="120b2230be4f0119ca3adc1c6885478788d49f36" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>v5+qsRihr55lBuplSMZVDM+sfcxDr5/b3j8vXfZe3NQ=</DigestValue></Reference></SignedInfo><SignatureValue>wL5HF4oj+O8QVM0HH6MQ4a8qVop+jrTZZfPHBKJc5mXPcRfMsnZ6uXd30MzWnLRgCNSp21U+HM9aHOdE16Iqx3tVgPuK7Xjzw1107Y/Je62KdgSqd+bnQhFhSJYNnMhOEXD2szssXGf7UC2gKOMC0YljJp8CkAZ6loFCYUMJ1I8=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>x3+W2wqGT50+8Wl2+0y3gnZzJw7Wb8359GbvHPskiXdJhUxRK5lPmlDBRHSAuyhRFqfuVARQwFcOHD9o7GDe/mo/Wo7sbPUhTfhuOMMbFvlhGhG/rbzl6EopIID34lKiAkL1lJ4A2D3Ih4LkV1nuKwGXpdpvDVnSBt3RobEzo/E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="d4dc5ef65d2f3fdedb9faf43cc7daccf0c55c64865ea06659eafa118b1aa9fbf" Description="" Url=""><as:assemblyIdentity name="QuanLyBanHang.exe" version="1.0.0.0" publicKeyToken="78b82781346c283e" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=THONG\THONG</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>U92Ose9h1JU6XVW6Gho5Q7QuF8snR30nxVCSmIh9KLw=</DigestValue></Reference></SignedInfo><SignatureValue>TQSXDxUIw/ADoGwVH+8BZHIBoXsEsl8sJKZ84iFCd+i3SpYZWa+lq+HR6/OHee/Sv5YMqYbEXZHfnT0gXQ50RPpnFGhjw1F/23cga5tFII4qHntS1bl9xeyQ0utRSLIAOjrHlCXLcstJ8JowJV+otYeyJeJwm1AC8V+YkscEnS0=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>x3+W2wqGT50+8Wl2+0y3gnZzJw7Wb8359GbvHPskiXdJhUxRK5lPmlDBRHSAuyhRFqfuVARQwFcOHD9o7GDe/mo/Wo7sbPUhTfhuOMMbFvlhGhG/rbzl6EopIID34lKiAkL1lJ4A2D3Ih4LkV1nuKwGXpdpvDVnSBt3RobEzo/E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBxTCCAS6gAwIBAgIQGi0AHDQi47NKYYfAZ4pJKzANBgkqhkiG9w0BAQsFADAhMR8wHQYDVQQDHhYAVABIAE8ATgBHAFwAVABIAE8ATgBHMB4XDTIyMDIyODA0MjI1OFoXDTIzMDIyODEwMjI1OFowITEfMB0GA1UEAx4WAFQASABPAE4ARwBcAFQASABPAE4ARzCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAx3+W2wqGT50+8Wl2+0y3gnZzJw7Wb8359GbvHPskiXdJhUxRK5lPmlDBRHSAuyhRFqfuVARQwFcOHD9o7GDe/mo/Wo7sbPUhTfhuOMMbFvlhGhG/rbzl6EopIID34lKiAkL1lJ4A2D3Ih4LkV1nuKwGXpdpvDVnSBt3RobEzo/ECAwEAATANBgkqhkiG9w0BAQsFAAOBgQBy+0N+P8+dnI1kyEDAK8fjtspD6hPnQTZqVamEtGiklbquqFBjYhRMIGe18wTsrhaKlud1r6AOFPCoJy4b3z4pO9oWzdoXWIot3KHxw2oujnlwVJ1z5G3EhbDWHzkgRcCJOpMZQATyqvlSXXjHAQpHKvJY/4TInYMfTOL8w75Okg==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
